@@ -3,6 +3,19 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import './assets/style/bootstrap-grid.min.css'
+import axios from './utils/http'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+import '../theme/index.css'
+import ElementUI from 'element-ui'
+Vue.use(ElementUI)
+Vue.use(VueAwesomeSwiper)
+Object.defineProperties(Vue.prototype, {
+  '$axios': {
+    get: () => axios
+  }
+})
 
 Vue.config.productionTip = false
 

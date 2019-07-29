@@ -1,6 +1,6 @@
-# pierre_cardin_b2f
+# mydemo
 
-> pierre_cardin_b2f project
+> A Vue.js project
 
 ## Build Setup
 
